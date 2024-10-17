@@ -6,7 +6,7 @@ public class Hero {
 	
 	public void attack() {};
 	public void sleep() {
-		this.hp = 100;
+		this.hp = 1;
 		System.out.println(this.name + "は、眠って回復した！");
 	};
 	public void sit(int sec) {
