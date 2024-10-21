@@ -2,7 +2,7 @@ package code08_16;
 
 public class Hero {
 	String name;
-	int hp;
+	int ;
 	
 	public void attack() {};
 	public void sleep() {
