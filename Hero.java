@@ -1,4 +1,4 @@
-package code09_02;
+package code08_16;
 
 public class Hero {
 	String name;
@@ -6,7 +6,7 @@ public class Hero {
 	
 	public void attack() {};
 	public void sleep() {
-		this.hp = 1;
+		this.hp = 100;
 		System.out.println(this.name + "は、眠って回復した！");
 	};
 	public void sit(int sec) {
